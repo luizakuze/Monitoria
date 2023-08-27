@@ -1,29 +1,27 @@
 # Exercício 04 - parte 01
   
 ## Introdução  
-Nos Estados Unidos da América, a altura de uma pessoa é medida em pés + polegadas. Por exemplo, considere uma pessoa com 5 pés + 11 polegadas de altura (escrito simplesmente como 5'11"); sabendo que 1 pé equivale a 12 polegadas, e 1 polegada equivale a 2.54 centímetros, conclui-se que tal pessoa tem por volta de 180.34 centímetros de altura.
+<div align="center">
 
-**(a)** Escreva um pseudocódigo para um algoritmo que lê dois números inteiros representando os valores da altura de uma pessoa em pés + polegadas, e escreve o valor da altura em centímetros. Em seguida, execute um teste de mesa com
-a entrada 5, 11; a saída deve ser 180.34.
+_"Nos Estados Unidos da América, a altura de uma pessoa é medida em pés + polegadas. Por exemplo, considere uma pessoa com 5 pés + 11 polegadas de altura (escrito simplesmente como 5'11"); sabendo que 1 pé equivale a 12 polegadas, e 1 polegada equivale a 2.54 centímetros, conclui-se que tal pessoa tem por volta de 180.34 centímetros de altura"_
 
-**(b)** Repita o item anterior, mas agora supondo que é lido um único valor em centímetros e são escritos os valores em pés e polegadas correspondentes. Assuma que exista uma função chamada round que arredonda um número real para 1/6 o inteiro mais próximo; por exemplo, round(3.14) = 3 e round(3.86) = 4. Em seguida, execute um teste de mesa com a entrada 180; a saída deve ser 5, 11.
+**A)** _"Escreva um pseudocódigo para um algoritmo que lê dois números inteiros representando os valores da altura de uma pessoa em pés + polegadas, e escreve o valor da altura em centímetros. Em seguida, execute um teste de mesa com a entrada 5, 11; a saída deve ser 180.34"_
 
+**B)** _"Repita o item anterior, mas agora supondo que é lido um único valor em centímetros e são escritos os valores em pés e polegadas correspondentes. Assuma que exista uma função chamada round que arredonda um número real para 1/6 o inteiro mais próximo; por exemplo, round(3.14) = 3 e round(3.86) = 4. Em seguida, execute um teste de mesa com a entrada 180; a saída deve ser 5, 11"_
+
+</div>
 
 ## Resolução
 
 ### A)
 
-#### Pseudocódigo
-
 <div align="center">
+
+#### Pseudocódigo
 
 ![](../../imagens/ex-04.png)
 
-</div>
-
 #### Teste de mesa
-(entrada =  5, 11) <br>
-(saída =  180.34)
 
 |Inst|pés|polegadas|centímetros|
 ----|----|----|----
@@ -37,21 +35,19 @@ a entrada 5, 11; a saída deve ser 180.34.
 |7|5|71|180.34|
 |8|5|71|180.34|
 
+</div>
 
 ### B)
 
-#### Pseudocódigo
-
 <div align="center">
+
+#### Pseudocódigo
 
 ![](../../imagens/ex-04.2.png)
 
-</div>
+
 
 #### Teste de mesa
-
-(entrada = 180) <br>
-(saída = 5, 11)
 
 |Inst|pés|polegadas|centímetros|
 ----|----|----|----
@@ -65,15 +61,14 @@ a entrada 5, 11; a saída deve ser 180.34.
 |7|5|10.866|180|
 |8|5|10.866|180| 
 |9|5|11|180|
-|9|5|11|180|
+|10|5|11|180|
 
-nao precisa round! como pes já é inteiro 😶
+</div>
+
 
 ### Extra para letra B
 
 Um código em C para auxiliar no teste de mesa 🤗
-
-Vale resaltar que fiz a variável "pes" como um número inteiro e a polegadas como um número  real, pois vamos tentar converter o máximo de  "pés" inteiros e o que sobrar fica como polegada.
 
 ```c
 #include <stdio.h>
@@ -88,8 +83,11 @@ int main() {
     int pes = polegadas / 12;
     polegadas = polegadas - pes*12;
 
-    printf("Altura: %f' %f\n", round(pes), round(polegadas));
+    printf("Altura: %d' %.f''\n", pes, round(polegadas));
 
     return 0;
-}
 ```
+
+Mas... Por que foi utilizado int para "pes" e float para "polegadas"? <br> <br>
+Em resumo, é por conta do arredondamento que é feito com a função "round" dada a lógica que foi implementada no código. Ao usar int para polegadas também, perdemos a parte fracionária e o arredondamento não funciona corretamente como foi instruído no exercício.
+

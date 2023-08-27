@@ -1,18 +1,15 @@
 # Exercício 02 - parte 01
   
 ## Introdução  
-Implemente um algoritmo, na forma de pseudocódigo, para determinar a hipotenusa
-de um triângulo retângulo, dados os seus catetos. 
 
-Quais são os dados de entrada?
+<div align="center">
 
-As variáveis que receberão estes dados devem ser que que tipo? 
+_"Implemente um algoritmo, na forma de pseudocódigo, para determinar a hipotenusa
+de um triângulo retângulo, dados os seus catetos. <Br>Quais são os dados de entrada? <br> As variáveis que receberão estes dados devem ser que que tipo? <br> Quais são os dados de saída?<br>
+Estes dados serão armazenados em variáveis de que tipo? <br>
+Obs: Assuma que há uma função sqrt que calcula raiz quadrada."_
 
-Quais são os dados de saída?
-
-Estes dados serão armazenados em variáveis de que tipo? 
-
-Obs: Assuma que há uma função sqrt que calcula raiz quadrada.
+</div>
 
 ## Resolução
 
