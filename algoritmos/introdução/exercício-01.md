@@ -11,6 +11,6 @@ Em seguida, execute um teste de mesa com a entrada 100; a saída deve ser 37.777
 
 <div align="center">
 
-![](../../imagens/fluxograma-01.png)
+![](../../imagens/ex-01.png)
 
 </div>
