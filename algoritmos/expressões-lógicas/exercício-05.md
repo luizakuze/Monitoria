@@ -20,7 +20,7 @@ Escreva uma expressão lógica que, dada uma variável inteira 𝑎𝑛𝑜, ass
 - Condição 2: Não ser divisível por 100.
 - Condição 3: Ano divisível por 400.
 
-Condição 1 é "geral", tem que ter de qualquer maneira. Porém, a condição 2 não pode ocorrer em conjunto com a condição 3 (não pode acontecer ao mesmo tempo).
+Condição 1 é "geral", tem que ter de qualquer maneira. <br> Porém, a condição 2 não pode ocorrer em conjunto com a condição 3 (não podem acontecer ao mesmo tempo)
 
 <div align="center">
 
