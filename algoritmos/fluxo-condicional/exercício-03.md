@@ -25,8 +25,11 @@ os conjuntos, ou a nenhum deles. Identifique os dados de entrada e os de saída.
 
 ## Resolução
 
+- **Entrada:** n1, n2, n3 e n4
+- **Saída:** As mensagens em verde a depender do caso.
 
 <div align="center">
+
 
 ![](../../imagens/3ex-03.png)
 

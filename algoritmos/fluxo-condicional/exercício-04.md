@@ -17,5 +17,5 @@ ser 2.6, 2, pois a média é 2.6 e há dois números acima da média."_
 
 ![](../../imagens/3ex-04.png)
 
-falta realizar o teste de mesa! 
+falta realizar o teste de mesa! 😛
 </div>
