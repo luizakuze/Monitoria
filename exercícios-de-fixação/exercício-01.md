@@ -21,6 +21,6 @@ de que tipo? <br> <br>
 - **Constantes:** Pi.
 <div align="center">
 
-![](../../imagens/fex01.png)
+![](../imagens/fex01.png)
 
 </div>
