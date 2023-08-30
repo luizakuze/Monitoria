@@ -1,4 +1,4 @@
-# Algoritmos
+# Algoritmos 💭
 
 - [**introdução**](https://github.com/luizakuze/Monitoria/tree/main/algoritmos/introdução) - Introdução ao fluxograma e pseudocódigo.
 
