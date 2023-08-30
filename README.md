@@ -9,5 +9,13 @@ Atendimento de programação - IFSC - Semestre 2023.2
 - `Sexta` - 11:30 às 12:30
 
 ## Estudos 📚
-- [**algoritmos**](https://github.com/luizakuze/Monitoria/tree/main/algoritmos) - Lista de exercícios de fluxograma, pseudocódigo e teste de mesa. <br>
 
+### Pensamento Computacional e Algoritmos 📕
+
+- [**algoritmos**](https://github.com/luizakuze/Monitoria/tree/main/algoritmos) - Lista de exercícios de fluxograma, pseudocódigo e teste de mesa. 
+
+- [**exercícios de fixação**](https://github.com/luizakuze/Monitoria/tree/main/exercícios-de-fixação) - Lista de exercícios de fixação do conteúdo introdutório<br>
+
+### Programação I 📘
+
+- [**algoritmos**](https://github.com/luizakuze/Monitoria/tree/main/algoritmos) - Lista de exercícios de fluxograma, pseudocódigo e teste de mesa.
