@@ -14,7 +14,7 @@ Atendimento de programação - IFSC - Semestre 2023.2
 
 - [**algoritmos**](https://github.com/luizakuze/Monitoria/tree/main/algoritmos) - Lista de exercícios de fluxograma, pseudocódigo e teste de mesa. 
 
-- [**exercícios de fixação**](https://github.com/luizakuze/Monitoria/tree/main/exercícios-de-fixação) - Lista de exercícios de fixação do conteúdo introdutório<br>
+- [**exercícios de fixação**](https://github.com/luizakuze/Monitoria/tree/main/exercícios-de-fixação) - Lista de exercícios de algoritmos básicos e subprogramas. <br>
 
 ### Programação I 📘
 
