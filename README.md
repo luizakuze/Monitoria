@@ -19,3 +19,5 @@ Atendimento de programação - IFSC - Semestre 2023.2
 ### Programação I 📘
 
 - [**algoritmos**](https://github.com/luizakuze/Monitoria/tree/main/algoritmos) - Lista de exercícios de fluxograma, pseudocódigo e teste de mesa.
+
+- [**introdução C**](https://github.com/luizakuze/Monitoria/tree/main/introduçãoC) - Conceitos da linguagem C, lógica de programação e terminal.
