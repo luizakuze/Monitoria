@@ -17,13 +17,13 @@ Comando | Descrição
 ### cp 
 - Copiar arquivo
 
-```
+```bash
 cp origem destino
 ```
 
 Poderia ser...
 
-```
+```bash
 cp documento.txt backup/
 ```
 
@@ -33,17 +33,17 @@ cp documento.txt backup/
 
 - Mover arquivo
 
-```
+```bash
 mv origem destino
 ```
 
-```
+```bash
 mv documento.txt backup/
 ```
 
 - Renomear arquivo 
 
-```
+```bash
 mv documento.txt novo_documento.txt
 ```
 
