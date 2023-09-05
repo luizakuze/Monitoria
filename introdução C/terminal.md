@@ -52,9 +52,13 @@ Entendendo que o "documento.txt" era o nome anterior do arquivo e "novo_document
 ## Compilar e executar um código 📖
 
 
-1) `Escrever o Código Fonte` - Primeiro, você precisa escrever seu código-fonte em um arquivo com extensão .c usando um editor de texto ou uma IDE (Ambiente Integrado de Desenvolvimento).
+1) `Escrever o Código Fonte` - Primeiro, você precisa escrever seu código-fonte em um arquivo com extensão .c usando um editor de texto ou uma IDE (Ambiente Integrado de Desenvolvimento). <br> Se usar o gedit, utilizar o comando:
+   
+```bash
+gedit seu_arquivo.c
+```
 
-2) `Compilar o Código` -  Você pode usar o compilador GCC (GNU Compiler Collection) para compilar o código. Abra o terminal e navegue até o diretório onde seu arquivo .c está localizado. Use o comando a seguir para compilar o código:
+3) `Compilar o Código` -  Você pode usar o compilador GCC (GNU Compiler Collection) para compilar o código. Abra o terminal e navegue até o diretório onde seu arquivo .c está localizado. Use o comando a seguir para compilar o código:
 
 ```bash
 gcc seu_arquivo.c -o nome_do_programa
