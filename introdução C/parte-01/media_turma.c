@@ -39,5 +39,55 @@ int main()
 
     return 0;
 }
-prova1.txt
-Exibindo prova1.txt.
+
+
+// //VERSÃO PARA VER OS VALORES DE 'conta_alunos' E 'N'
+// #include <stdio.h>
+
+// int main()
+// {
+//     variáveis
+//     int N;
+//     float A1, A2;
+//     float media_aluno, media_turma;
+//     int conta_aluno = 0;
+
+//     início
+//     printf("Entre com a quantidade de alunos:\n");
+//     scanf("%d", &N);
+
+//     media_turma = 0;
+
+//     printf("ANTES DO LAÇO\n");
+//     printf("---> conta_aluno = %d\n", conta_aluno);
+//     printf("---> N = %d\n", N);
+
+//     printf("DURANTE O LAÇO\n");
+
+//     while (conta_aluno < N) {  // ENQUANTO
+
+//         lendo avaliações
+//         printf("Aluno %d: Entre com A1 e A2:\n", conta_aluno);
+//         scanf("%f %f", &A1, &A2);
+
+//         media_aluno = A1 * 0.3 + A2 * 0.7;
+//         media_turma = media_turma + media_aluno;
+//         media_turma += media_aluno;
+
+//         conta_aluno += 1;
+//         conta_aluno++;
+
+//         printf("---> conta_aluno = %d\n", conta_aluno);
+//         printf("---> N = %d\n", N);
+
+//     }  // FIM ENQUANTO
+
+//     printf("DEPOIS DO LAÇO\n");
+
+//     media_turma = media_turma / N;
+//     media_turma /= N;
+
+//     printf("Média turma = %f\n", media_turma);
+
+//     return 0;
+// }
