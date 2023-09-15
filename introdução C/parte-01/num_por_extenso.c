@@ -1,3 +1,7 @@
+// O exercício escreve um número por extenso
+// Entrada: 1
+// Saída: um
+
 #include <stdio.h>
 
 int main() {
