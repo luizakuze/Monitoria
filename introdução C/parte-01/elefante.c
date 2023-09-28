@@ -1,6 +1,63 @@
 /* Escreva um programa que não lê nada do teclado e escreve na tela a letra da cantiga Um elefante incomoda, como mostrado abaixo.
  * Preste muita atenção na pontuação (ponto final, ponto de exclamação, vírgula) e na concordância (singular, plural). */
+#include <stdio.h>
 
+int main() {
+    char numeros[10][10] = {
+            "Um",
+            "Dois",
+            "Três",
+            "Quatro",
+            "Cinco",
+            "Seis",
+            "Sete",
+            "Oito",
+            "Nove",
+            "Dez"
+    };
+
+    for (int i = 1; i <= 10; i++) {
+        printf("%s elefante", numeros[i - 1]);
+
+        if (i % 2 == 0 && i != 1) {
+            printf("s ");
+            for (int j = 1; j <= i; j++) {
+                printf("incomodam");
+                if (j < i)
+                    printf(", ");
+                else if (i != 10)
+                    printf(" muito mais");
+            }
+            printf("!\n");
+        } else {
+            printf(" incomodam muita gente.\n");
+        }
+    }
+
+    for (int i = 10; i > 1; i--) {
+        printf("%s elefante", numeros[i - 1]);
+
+        if (i % 2 != 0) {
+            printf("s ");
+            for (int j = 1; j <= i; j++) {
+                printf("incomodam");
+                if (j < i)
+                    printf(", ");
+                else
+                    printf(" muito menos");
+            }
+            printf("!\n");
+        } else {
+            printf(" incomodam muita gente.\n");
+        }
+    }
+
+    printf("%s elefante incomoda muito menos.\n", numeros[0]);
+
+    return 0;
+}
+
+/*
 #include <stdio.h>
 
 int main() {
@@ -110,3 +167,4 @@ int main() {
 
     return 0;
 }
+*/
