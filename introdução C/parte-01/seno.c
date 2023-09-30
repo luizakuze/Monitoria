@@ -1,19 +1,21 @@
 #include <stdio.h>
 #include <math.h>
+#define PI 3.141593
 
 float seno_bhaskara (float x){
+    float sin;
 
     if (x > 180) {
-        x = -(360 - x);
+        sin = - ( 4 * (360-x) * ( 180 - (360-x))) / (40500 - (360-x) * (180 - (360-x)));
+    } else {
+        sin = ( 4 * x * ( 180 - x)) / (40500 - x * (180 - x));
     }
-
-    float sin = ( 4 * x * ( 180 - x)) / (40500 - x * (180 - x));
 
     return sin;
 }
 
 float seno_real (float x) {
-    return sin(x);
+    return sin(x * (PI/180));
 }
 
 int main() {
@@ -21,8 +23,8 @@ int main() {
     printf("Entre com o valor do ângulo em graus: ");
     scanf("%f", &ang);
 
-    printf("Valor aproximado do seno: %f\n", seno_bhaskara(ang));
-    printf("Valor real do seno: %f\n", seno_real(ang));
+    printf("Valor aproximado do seno: %.4f\n", seno_bhaskara(ang));
+    printf("Valor real do seno: %.4f\n", seno_real(ang));
 
     return 0;
 }
