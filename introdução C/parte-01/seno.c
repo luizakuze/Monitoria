@@ -28,3 +28,24 @@ int main() {
 
     return 0;
 }
+
+// outra ideia p função seno_bhaskara
+/*
+float seno_bhaskara(float x) {
+    float sen;
+
+    float numerador, denominador;
+
+    if (x > 180) {
+        numerador = -4 * (360 - x) * (180 - (360 - x));
+        denominador = 40500 - (360 - x) * (180 - (360 - x));
+    } else {
+        numerador = 4 * x * (180 - x);
+        denominador = 40500 - x * (180 - x);
+    }
+
+    sen = numerador / denominador;
+
+    return sen;
+}
+*/
