@@ -58,9 +58,8 @@ int main() {
 }
 ```
 
-```
-// DESAFIO
 ```c
+// DESAFIO
 #include <stdio.h>
 
 int main() {
