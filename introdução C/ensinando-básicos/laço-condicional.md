@@ -15,6 +15,33 @@ int main() {
 ```c
 #include <stdio.h>
 
+int main(void)
+{
+    // laços condicional
+    // WHILE
+
+    int i = 1;
+
+    // enquanto essa condição for verdadeira
+    while (i < 11) {
+        // faz isso
+
+        if (i % 2 == 0) {
+            printf("o número %d par\n", i);
+        } else {
+            printf("o número %d é ímpar\n", i);
+        }
+
+        // incrementa
+        i = i + 1;
+    }
+
+    return 0;
+}
+```
+```c
+#include <stdio.h>
+
 int main() {
     for (int i = 1; i <= 10; i++) {
         printf("%d ", i);
