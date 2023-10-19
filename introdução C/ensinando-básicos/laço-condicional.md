@@ -107,3 +107,29 @@ int main() {
     return 0;
 }
 ```
+```C
+#include <stdio.h>
+
+int main(void)
+{
+    // laços condicional
+    // WHILE / FOR
+
+    int i;
+
+    // dada uma condição inicial
+    // faz o que tem dentro do for
+    // verifica condição 2
+    // depois que acabar, faz o i = i + 1
+    for (i = 1; i < 11; i = i + 1) {
+        printf("%d\n", i);
+    }
+
+    while (i < 11) {
+        printf("%d\n", i);
+        i = i + 1;
+    }
+
+    return 0;
+}
+```
