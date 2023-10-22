@@ -112,3 +112,47 @@ int main() {
     return 0;
 }
 ```
+```c
+#include <stdio.h>
+
+int main() {
+    int numero;
+
+    printf("Digite um número inteiro: ");
+    scanf("%d", &numero);
+
+    int i = 1;
+
+    while (i <= 10) {
+        printf("%d x %d = %d\n", numero, i, numero * i);
+        i++;
+    }
+
+    return 0;
+}
+```
+```c
+#include <stdio.h>
+
+int main() {
+    int numero, fatorial = 1;
+
+    printf("Digite um número inteiro não negativo: ");
+    scanf("%d", &numero);
+
+    if (numero < 0) {
+        printf("Por favor, insira um número inteiro não negativo.\n");
+        return 1;
+    }
+
+    int contador = 1;
+    while (contador <= numero) {
+        fatorial *= contador;
+        contador++;
+    }
+
+    printf("O fatorial de %d é %d.\n", numero, fatorial);
+
+    return 0;
+}
+```
