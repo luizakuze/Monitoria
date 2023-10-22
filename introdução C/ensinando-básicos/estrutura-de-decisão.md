@@ -145,9 +145,9 @@ int main() {
         return 1;
     }
 
-    int contador = 1;
-    while (contador <= numero) {
-        fatorial *= contador;
+    int i = 1;
+    while (i <= numero) {
+        fatorial *= i;
         contador++;
     }
 
