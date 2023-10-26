@@ -47,9 +47,3 @@ int main(void) {
 
 }
 ```
-
-## if, if/else
-
-## while, do while, switch, for
-
-## função
